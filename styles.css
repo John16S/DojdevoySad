@@ -26,9 +26,8 @@ BODY {
 }
 
 .content {
-  display: grid;
+  display: Grid;
   justify-content: center;
-  align-items: center;
   margin-left: 5%;
   margin-right: 5%;
   text-align: justify;
@@ -37,6 +36,9 @@ BODY {
 
 a {
   text-decoration: none;
+}
+a:hover {
+  color: rgb(20, 192, 86);
 }
 
 /* Стили для таблицы */
@@ -65,4 +67,22 @@ a {
 .table tbody tr:nth-child(even) {
   background: rgb(24, 141, 1);
 }
+
+.table1 {
+  margin: auto;
+  width: 80%;
+  margin-bottom: 20px;
+  border: 15px solid #09b3b3;
+  border-top: 5px solid #0c8a8a;
+  font-weight: bold;
+  text-align: center;
+}
 /*----------------------------------------------------*/
+
+.container {
+  display: grid;
+  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 20px;
+}
