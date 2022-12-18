@@ -4,7 +4,7 @@ BODY {
 }
 
 .topic {
-    height: 120px;
+  height: 120px;
   display: flex;
   justify-content: center;
 }
@@ -16,7 +16,7 @@ BODY {
   cursor: pointer;
   text-shadow: 1px 1px 0 rgb(0, 110, 30), 2px 2px 0 rgb(0, 125, 30),
     3px 3px 0 rgb(0, 150, 30), 4px 4px 0 rgb(0, 165, 30);
-  color: rgb(0, 95, 30);
+  color: rgb(10, 129, 48);
   transition: all 0.5s;
 }
 .topic H1:hover {
@@ -58,5 +58,11 @@ a {
   padding: 5px;
   border: 2px solid black;
   border-bottom: 5px solid #f2f8f8;
+}
+.table tbody tr:nth-child(odd) {
+  background: rgb(37, 218, 1);
+}
+.table tbody tr:nth-child(even) {
+  background: rgb(24, 141, 1);
 }
 /*----------------------------------------------------*/
